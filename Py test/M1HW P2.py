@@ -26,7 +26,7 @@ def menu():
         elif choice == 2:
             Subtraction()
         elif choice == 3:
-            Devision()
+            Division()
         elif choice == 4:
             Multipilcation()
         elif choice == 5:
