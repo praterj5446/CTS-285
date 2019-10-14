@@ -5,13 +5,13 @@ Answer Checker"""
 
 
 def main():
-    menu()
+    ACmenu()
     Addition()
     Subtraction()
     Devision()
     Multipilcation()
     
-def menu():
+def ACmenu():
     keep_going = 'y'
     while (keep_going=="y"):
         print("Menu")
@@ -38,58 +38,58 @@ def menu():
 def Addition():
     keep_going = 'y'
     while (keep_going=="y"):
-    number1 = int(input("Enter the first number: "))
-    number2 = int(input("Enter the second number: "))
-    userAnswer = int(input("Enter the answer you got: "))
-    
-    computerAnswer = number1 + number2
-    choice = int(input('Would you like to 1: Repeat or 2: Go to main menu: ')) 
-    if userAnswer == computerAnswer:
-        print("Congradulations!")
-    else:
-        print("EEEEE")
+        number1 = int(input("Enter the first number: "))
+        number2 = int(input("Enter the second number: "))
+        userAnswer = int(input("Enter the answer you got: "))
+        
+        computerAnswer = number1 + number2
+        choice = int(input('Would you like to 1: Repeat or 2: Go to main menu: ')) 
+        if userAnswer == computerAnswer:
+            print("Congradulations!")
+        else:
+            print("EEEEE")
+            
 def Subtraction():
     keep_going = 'y'
     while (keep_going=="y"):
-    number1 = int(input("Enter the first number: "))
-    number2 = int(input("Enter the second number: "))
-    userAnswer = int(input("Enter the answer you got: "))
-    
-    computerAnswer = number1 - number2
-    
+        number1 = int(input("Enter the first number: "))
+        number2 = int(input("Enter the second number: "))
+        userAnswer = int(input("Enter the answer you got: "))
+        
+        computerAnswer = number1 - number2
         choice = int(input('Would you like to 1: Repeat or 2: Go to main menu: '))
-    if userAnswer == computerAnswer:
-        print("Congradulations!")
-    else:
-        print("EEEEE")
+        if userAnswer == computerAnswer:
+            print("Congradulations!")
+        else:
+            print("EEEEE")
     
 def Devision():
     keep_going = 'y'
     while (keep_going=="y"):
-    number1 = int(input("Enter the first number: "))
-    number2 = int(input("Enter the second number: "))
-    userAnswer = int(input("Enter the answer you got: "))
-    
-    computerAnswer = number1 / number2
-    choice = int(input('Would you like to 1: Repeat or 2: Go to main menu: '))
-    if userAnswer == computerAnswer:
-        print("Congradulations!")
-    else:
-        print("EEEEE")
+        number1 = int(input("Enter the first number: "))
+        number2 = int(input("Enter the second number: "))
+        userAnswer = int(input("Enter the answer you got: "))
+        
+        computerAnswer = number1 / number2
+        choice = int(input('Would you like to 1: Repeat or 2: Go to main menu: '))
+        if userAnswer == computerAnswer:
+            print("Congradulations!")
+        else:
+            print("EEEEE")
     
 def Multipilcation():
     keep_going = 'y'
     while (keep_going=="y"):
-    number1 = int(input("Enter the first number: "))
-    number2 = int(input("Enter the second number: "))
-    userAnswer = int(input("Enter the answer you got: "))
-    
-    computerAnswer = number1 * number2
-    choice = int(input('Would you like to 1: Repeat or 2: Go to main menu: '))
-    if userAnswer == computerAnswer:
-        print("Congradulations!")
-    else:
-        print("EEEEE")
+        number1 = int(input("Enter the first number: "))
+        number2 = int(input("Enter the second number: "))
+        userAnswer = int(input("Enter the answer you got: "))
+        
+        computerAnswer = number1 * number2
+        choice = int(input('Would you like to 1: Repeat or 2: Go to main menu: '))
+        if userAnswer == computerAnswer:
+            print("Congradulations!")
+        else:
+            print("EEEEE")
 
 if __name__=="__main__":
     main()
