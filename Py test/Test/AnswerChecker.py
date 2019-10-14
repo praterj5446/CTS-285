@@ -36,60 +36,60 @@ def ACmenu():
             print('\nChoice was not valid.  Please choose a valid option between 1 - 5.')
                 
 def Addition():
-    keep_going = 'y'
-    while (keep_going=="y"):
+    keep_going = 1
+    while (keep_going==1):
         number1 = int(input("Enter the first number: "))
         number2 = int(input("Enter the second number: "))
         userAnswer = int(input("Enter the answer you got: "))
         
         computerAnswer = number1 + number2
-        choice = int(input('Would you like to 1: Repeat or 2: Go to main menu: ')) 
         if userAnswer == computerAnswer:
             print("Congradulations!")
         else:
             print("EEEEE")
-            
+        keep_going = int(input('Would you like to 1: Repeat or 2: Go to main menu: ')) 
+        
 def Subtraction():
-    keep_going = 'y'
-    while (keep_going=="y"):
+    keep_going = 1
+    while (keep_going==1):
         number1 = int(input("Enter the first number: "))
         number2 = int(input("Enter the second number: "))
         userAnswer = int(input("Enter the answer you got: "))
         
         computerAnswer = number1 - number2
-        choice = int(input('Would you like to 1: Repeat or 2: Go to main menu: '))
         if userAnswer == computerAnswer:
             print("Congradulations!")
         else:
             print("EEEEE")
+        keep_going = int(input('Would you like to 1: Repeat or 2: Go to main menu: ')) 
     
 def Devision():
-    keep_going = 'y'
-    while (keep_going=="y"):
+    keep_going = 1
+    while (keep_going==1):
         number1 = int(input("Enter the first number: "))
         number2 = int(input("Enter the second number: "))
         userAnswer = int(input("Enter the answer you got: "))
         
         computerAnswer = number1 / number2
-        choice = int(input('Would you like to 1: Repeat or 2: Go to main menu: '))
         if userAnswer == computerAnswer:
             print("Congradulations!")
         else:
             print("EEEEE")
+        keep_going = int(input('Would you like to 1: Repeat or 2: Go to main menu: ')) 
     
 def Multipilcation():
-    keep_going = 'y'
-    while (keep_going=="y"):
+    keep_going = 1
+    while (keep_going==1):
         number1 = int(input("Enter the first number: "))
         number2 = int(input("Enter the second number: "))
         userAnswer = int(input("Enter the answer you got: "))
         
         computerAnswer = number1 * number2
-        choice = int(input('Would you like to 1: Repeat or 2: Go to main menu: '))
         if userAnswer == computerAnswer:
             print("Congradulations!")
         else:
             print("EEEEE")
+        keep_going = int(input('Would you like to 1: Repeat or 2: Go to main menu: ')) 
 
 if __name__=="__main__":
     main()

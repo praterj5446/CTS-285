@@ -8,6 +8,7 @@ Created on Mon Oct  7 12:23:28 2019
 import random
 def main():
     game()
+    
 def game():
     hiddenNum = int()
     guess = int()
