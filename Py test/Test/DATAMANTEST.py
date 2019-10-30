@@ -1,5 +1,6 @@
 import NumberGuesser as numGuess
 import AnswerChecker as calc
+import memoryBank as memory
 
 def main():
     menu()   
@@ -17,7 +18,7 @@ def menu():
         elif choice == 2:
             numGuess.game()
         elif choice == 3:
-            print("Sorry but the Memory Bank currently can not be loaded")
+            memory.memBank()
         else:
             print('\nChoice was not valid.  Please choose a valid option between 1 - 3.')
 

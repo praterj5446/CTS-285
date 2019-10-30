@@ -1,11 +1,12 @@
 # Jacob White
 # CTS-285
 # 10/25/2019
-#
-#
-
 import random
+
 def main():
+    memBank()
+    
+def memBank():
     a = str(' + ')
     totalWrong = 0
     totalCorrect = 0
@@ -267,5 +268,5 @@ def main():
     print('Correct || Wrong')
     print(totalCorrect, totalWrong)
 
-main()
-
+if __name__=="__main__":
+    main()
