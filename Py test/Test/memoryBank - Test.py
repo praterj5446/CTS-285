@@ -14,17 +14,13 @@ def main():
     rn  = random.randint(0,10)
     rn2 = random.randint(0,10)
    
-    print(rn)
-    print(a)
-    print(rn2)
+    print(rn, a, rn2)
     ans = int(input())
     computerAns = rn + rn2
     if ans != computerAns:
         
         print("EEEEE")
-        print(rn)
-        print(a)
-        print(rn2)
+        print(rn, a, rn2)
         ans = int(input())
 
         if ans != computerAns:
@@ -40,17 +36,13 @@ def main():
     computerAns2 = int()
     rn3  = random.randint(0,10)
     rn4 = random.randint(0,10)
-   
-    print(rn3)
-    print(a)
-    print(rn4)
+    print(rn3, a, rn4)
+
     ans2 = int(input())
     computerAns2 = rn3 + rn4
     if ans2 != computerAns2:
         print("EEEEE")
-        print(rn3)
-        print(a)
-        print(rn4)
+        print(rn3, a, rn4)
         ans2 = int(input())
 
         if ans2 != computerAns2:
@@ -66,16 +58,12 @@ def main():
     rn5  = random.randint(0,10)
     rn6 = random.randint(0,10)
    
-    print(rn5)
-    print(a)
-    print(rn6)
+    print(rn5, a, rn6)
     ans3 = int(input())
     computerAns3 = rn5 + rn6
     if ans3 != computerAns3:
         print("EEEEE")
-        print(rn5)
-        print(a)
-        print(rn6)
+        print(rn5, a, rn6)
         ans3 = int(input())
 
         if ans3 != computerAns3:
@@ -91,16 +79,12 @@ def main():
     rn7  = random.randint(0,10)
     rn8 = random.randint(0,10)
    
-    print(rn7)
-    print(a)
-    print(rn8)
+    print(rn7, a, rn8)
     ans4 = int(input())
     computerAns4 = rn7 + rn8
     if ans4 != computerAns4:
         print("EEEEE")
-        print(rn7)
-        print(a)
-        print(rn8)
+        print(rn7, a, rn8)
         ans4 = int(input())
 
         if ans4 != computerAns4:
@@ -116,16 +100,12 @@ def main():
     rn9  = random.randint(0,10)
     rn10 = random.randint(0,10)
    
-    print(rn9)
-    print(a)
-    print(rn10)
+    print(rn9, a, rn10)
     ans5 = int(input())
     computerAns5 = rn9 + rn10
     if ans5 != computerAns5:
         print("EEEEE")
-        print(rn9)
-        print(a)
-        print(rn10)
+        print(rn9, a, rn10)
         ans5 = int(input())
 
         if ans5 != computerAns5:
@@ -140,17 +120,13 @@ def main():
     rn11  = random.randint(0,10)
     rn12 = random.randint(0,10)
    
-    print(rn11)
-    print(a)
-    print(rn12)
+    print(rn11, a, rn12)
     ans6 = int(input())
     computerAns6 = rn11 + rn12
     if ans6 != computerAns6:
         
         print("EEEEE")
-        print(rn11)
-        print(a)
-        print(rn12)
+        print(rn11, a, rn12)
         ans6 = int(input())
 
         if ans6 != computerAns6:
@@ -166,17 +142,13 @@ def main():
     rn13  = random.randint(0,10)
     rn14 = random.randint(0,10)
    
-    print(rn13)
-    print(a)
-    print(rn14)
+    print(rn13, a, rn14)
     ans7 = int(input())
     computerAns7 = rn13 + rn14
     if ans7 != computerAns7:
         
         print("EEEEE")
-        print(rn13)
-        print(a)
-        print(rn14)
+        print(rn13, a, rn14)
         ans7 = int(input())
 
         if ans7 != computerAns7:
@@ -192,17 +164,13 @@ def main():
     rn15  = random.randint(0,10)
     rn16 = random.randint(0,10)
    
-    print(rn15)
-    print(a)
-    print(rn16)
+    print(rn15, a, rn16)
     ans8 = int(input())
     computerAns8 = rn15 + rn16
     if ans8 != computerAns8:
         
         print("EEEEE")
-        print(rn15)
-        print(a)
-        print(rn16)
+        print(rn15, a, rn16)
         ans8 = int(input())
 
         if ans8 != computerAns8:
@@ -218,17 +186,13 @@ def main():
     rn17  = random.randint(0,10)
     rn18 = random.randint(0,10)
    
-    print(rn17)
-    print(a)
-    print(rn18)
+    print(rn17, a, rn18)
     ans9 = int(input())
     computerAns9 = rn17 + rn18
     if ans9 != computerAns9:
         
         print("EEEEE")
-        print(rn17)
-        print(a)
-        print(rn18)
+        print(rn17, a, rn18)
         ans9 = int(input())
 
         if ans9 != computerAns9:
@@ -243,17 +207,13 @@ def main():
     rn19  = random.randint(0,10)
     rn20 = random.randint(0,10)
    
-    print(rn19)
-    print(a)
-    print(rn20)
+    print(rn19, a, rn20)
     ans10 = int(input())
     computerAns10 = rn19 + rn20
     if ans10 != computerAns10:
         
         print("EEEEE")
-        print(rn19)
-        print(a)
-        print(rn20)
+        print(rn19, a, rn20)
         ans10 = int(input())
 
         if ans10 != computerAns10:
@@ -265,7 +225,7 @@ def main():
 
 
     print('Correct || Wrong')
-    print(totalCorrect, totalWrong)
+    print(totalCorrect,'     \t', totalWrong)
 
 main()
 
