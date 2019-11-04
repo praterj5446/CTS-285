@@ -13,7 +13,6 @@ def main():
     computerAns = int()
     rn  = random.randint(0,10)
     rn2 = random.randint(0,10)
-   
     print(rn, a, rn2)
     ans = int(input())
     computerAns = rn + rn2
