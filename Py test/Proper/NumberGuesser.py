@@ -16,15 +16,19 @@ def game():
     yesOrNo = ''
     list = []
     length = int()
-        
+    
     while again.lower() == "yes" or again.lower() == "y":
         hiddenNum = random.randint(1,1000)
         print("Guess The Number Between 1 And 1000")
         print("With The Fewest Guesses!")
+        print("If you want to end early type 0.")
         while hiddenNum != guess:
             try:
                 guess = int(input("Enter a number: "))
-                if guess > hiddenNum:
+                if guess == 0:
+                    print("Exiting, the correct number was", hiddenNum)
+                    guess = hiddenNum
+                elif guess > hiddenNum:
                     print("Too high. Try again.")
                 elif guess < hiddenNum:
                     print("Too low. Try again.")
