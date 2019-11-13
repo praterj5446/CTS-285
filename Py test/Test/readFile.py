@@ -9,7 +9,7 @@ def display_menu():
     print("2. Display the equations.")
     print("3. Exit.")
         
-def main():
+def read():
     again = "y"
     num1 = []
     num2 = []
@@ -91,5 +91,7 @@ def main():
             again = "n"
         else:
             print("")
-        
+
+def main():
+    read()
 main()
